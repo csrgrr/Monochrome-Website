@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-color: rgb(131, 131, 131);
+    background-image: url("https://i.pinimg.com/564x/c2/00/2f/c2002f44dca977d1197f3436a4f2a4e3.jpg");
+}
+table{
+    background-color: rgb(131, 131, 131);
+
+    border-spacing: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px black,  -2px -2px 5px rgb(255, 255, 255);
+}
+tr, th, td{
+    border: solid black 1px;
+}
+</style>
+<body>
+    <table>
+        <caption >HORARIO</caption>
+        <br>
+        <thead>
+            <tr>
+                <th>Cosa1</th>
+                <th>Cosa2</th>
+                <th>Cosa3</th>
+                <th>Cosa4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="1">Cosa1</th>
+                <td rowspan="2">Cosa2</td>
+                <td rowspan="2">Cosa3</td>
+                <td rowspan="3">Cosa4</td>
+            </tr>
+            <tr>
+                <th>Cosa1</th>
+            </tr>
+            <tr>
+                <th>Cosa1</th>
+                <td>Cosa2</td>
+                <td>Cosa3</td>
+            </tr>
+            <tr>
+                <th>Descanso</th>
+                <td colspan="3">cafecito</td>
+            </tr>
+
+            <tr>
+                <th>Cosa1</th>
+                <td>Cosa2</td>
+                <td>Cosa3</td>
+                <td>Cosa4</td>
+            </tr>
+            <tr>
+                <th>Cosa1</th>
+                <td>Cosa2</td>
+                <td>Cosa3</td>
+                <td>Cosa4</td>
+            </tr>
+            <tr>
+                <th colspan="4">ORTRO DESCANSITO</th>
+            </tr>
+            <tr>
+                <th>Fin</th>
+                <td>fin</td>
+            </tr>
+        </tbody>
+
+
+
+    </table>
+
+  <p>
+
+<a href="www.elescribafrustrado.com">
+<img src="imagenes/anuncio2.gif">
+</a>
+
+  </p> 
+
+  <video controls width="320" height="240"
+    src="imagenes/clothes and equipment.mp4" type="video/mp4">
+  </video>
+  <br/> <br/>
+<button onclick="playPause()">Play/Pause</button>
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+
+  <audio id="player" src="rempalago.mp3"></audio>
+<div>
+ <button onclick="document.getElementById('player').play();">Reproducir</button>
+ <button onclick="document.getElementById('player').pause();">Pausar</button>
+ <button onclick="document.getElementById('player').volume += 0.1;">Subir Volumen</button>
+ <button onclick="document.getElementById('player').volume -= 0.1;">Bajar Volumen</button>
+</div>
+
+    
+</body>
+</html>

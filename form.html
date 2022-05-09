@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monochrome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="sinestilo">
+    <header>
+    <img src="imagenes/mountain.png" alt="mountain" width="100" height="100">
+  <div>
+    <h1>MONOCHROME</h1>
+    <h3>sport</h3>
+</div>
+    </header>
+
+    <nav class="sinestilo">
+        <ul>
+            <a href="index.html">
+            <li><img src="imagenes/about.png" alt="about" width="50" height="40"> <br>
+                about</li>
+                </a>
+                <a href="form.html">
+            <li> <img src="imagenes/backpack.png" alt="backpack" width="50" height="40"> <br>
+            backpacks</li>
+            </a>
+            <a href="form.html">
+            <li><img src="imagenes/clothes.png" alt="clothes" width="50" height="40"> <br>
+                clothes</li>
+                </a>
+
+                <a href="form.html">
+                <li><img src="imagenes/equipment.png" alt="equipment" width="50" height="40"> <br>
+                equipment</li>
+                </a>
+                
+                
+            <a href="form.html">
+            <li>
+                <img src="imagenes/contact.png" alt="contact" width="50" height="40"> <br>
+                contact</li> </a>
+        </ul>
+    </nav>
+</div>
+
+<!--                         medio                  -->
+  
+<div class="center">
+    <main>
+<form name="form">
+    <fieldset name="envío">
+        <p class="encabezado"><strong>Nombres y cosas</strong></p>
+    <div class="formIn">
+    <p>Nombre:  <input name="nombre" type="text" placeholder="César" autofocus> </p>     
+    <p>Dirección: <textarea id="direccion" name="direccion"></textarea> </p>  
+    <p>Ciudad:  <input name="Ciudad" type="text"> </p>     
+    <p>C.P.:  <input name="cp" type="text" pattern="[01000-52999]{5}\d" > </p>  
+</div> 
+</fieldset>
+
+<fieldset name="pago">
+    <div class="formIn">
+    <p class="encabezado"><strong>Forma de pago</strong></p>
+    <p><input type="radio" name="a"> <label for="a">Efectivo</label> <input type="radio" name="a">  <label for="b">Radio</label></p>
+    </div>
+</fieldset>
+
+<p class="encabezado"> Seleccion una tarjeta <select name="seleccion" size="3"> 
+    <option selected>Banco1</option> 
+    <option>Banco2</option> 
+    <option>Banco3</option>  
+</select> 
+Nº de tarjeta <input id="tarjeta" name="tarjeta" type="text" >
+</p>
+
+<hr>
+<p class="encabezado"><strong>
+ FECHA deseada de entrega (DIA-MES-AÑO)</strong> 
+ <input name="dia" type="number" min="1" max="31" maxlength="2" >
+<select>
+    <option>Enero</option>
+    <option>Febrero</option>
+</select>
+   <input name="año" type="text" maxlength="4" placeholder="2004" size="5">
+</p>
+
+<hr>
+
+<fieldset>
+<div class="formIn">
+<p class="encabezado">Escoje el color del envoltorio <input name="color" type="color"></p>
+
+<p class="encabezado">Mail:  <input name="email" type="email" placeholder="guerramendezcesar@gmail.com"> </p>  
+<p>Teléfono <input name="tele" type="tel" > </p>
+
+<p>Fecha de nacimiento <input name="fecha" type="date"></p>
+
+<p>Alguna sugerencia <input name="sugest" type="text" autocomplete="cositas coistas"></p>
+</div>
+</fieldset>
+
+<div class="buttons">
+<button type="submit"> Submit </button>
+<button style="float: right;" type="reset"> RESET</button>
+</div>
+</form>
+
+<!--                         medio    final              -->    
+            
+
+</main>
+
+<aside>
+</aside>
+</div>
+
+<footer><p>©Copyright MONOCHROME SPORT, all rights reserved.</p></footer>
+
+</body>
+</html> 
+       

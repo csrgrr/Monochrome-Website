@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+
+</style>
+<body>
+    <h1 style="text-align: center;">LA MEJOR TIENDA GOURMET</h1>
+    <img  src="imagenes/banner.jpg">
+    
+    <hr>
+
+    <form name="form">
+        <fieldset name="envío">
+            <legend>Nombres y cosas:</legend>
+        <p>Nombre:  <input name="nombre" type="text" placeholder="César" autofocus> </p>     
+        <p>Dirección: <textarea name="direccion"></textarea> </p>  
+        <p>Ciudad:  <input name="Ciudad" type="text"> </p>     
+        <p>C.P.:  <input name="cp" type="text" pattern="[01000-52999]{5}\d" > </p>   
+    </fieldset>
+
+    <fieldset name="pago">
+        <legend>Forma de pago</legend>
+        <p><input type="radio" name="a"> <label for="a">Efectivo</label> <input type="radio" name="a">  <label for="b">Radio</label></p>
+
+    </fieldset>
+
+    <p> Seleccion una tarjeta <select name="seleccion" size="3"> 
+        <option selected>Banco1</option> 
+        <option>Banco2</option> 
+        <option>Banco3</option>  
+    </select> 
+    Nº de tarjeta <input name="tarjeta" type="text" >
+</p>
+
+<hr>
+    <p><strong>
+     FECHA deseada <br>
+     de entrega(DIA-MES-AÑO)   
+    </strong> <input name="dia" type="number" min="1" max="31" maxlength="2" >
+    <select>
+        <option>Enero</option>
+        <option>Febrero</option>
+        <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+    </select>
+       <input name="año" type="text" maxlength="4" placeholder="2004" size="5">
+</p>
+
+<hr>
+
+<fieldset>
+
+    <p>Escoje el color del envoltorio <input name="color" type="color"></p>
+    <hr>
+   <p>Mail:  <input name="email" type="email" placeholder="guerramendezcesar@gmail.com" size="60"> </p>  
+    <p>Teléfono <input name="tele" type="tel" > </p>
+    <hr>
+    <p>Fecha de nacimiento <input name="fecha" type="date"></p>
+    <hr>
+    <p>Alguna sugerencia <input name="sugest" type="text" autocomplete="cositas coistas"></p>
+
+</fieldset>
+    </form>
+ <button type="submit"> Submit </button>
+ <button style="float: right;" type="reset"> RESET</button>
+</body>
+</html>
