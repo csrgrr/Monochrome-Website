@@ -41,7 +41,7 @@ Puedes ver la página en https://csrgrr.github.io
 
 
 
-<style>
+(<style>
     h3 {
         color:red;
         font-weight: bold;
@@ -49,5 +49,5 @@ Puedes ver la página en https://csrgrr.github.io
     li {
         list-style: none;
     }
-</style>
+</style>)
 
