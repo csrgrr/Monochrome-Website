@@ -39,6 +39,8 @@ Puedes ver la página en https://csrgrr.github.io
 
 ![perro](imagenes/adios.gif)
 
+echo "# Hello World"
+
 <style>
     h3 {
         color:red;
