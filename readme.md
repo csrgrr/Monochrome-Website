@@ -28,7 +28,7 @@ Puedes ver la página en https://csrgrr.github.io
 
 >Que la suerte te pille trabajando.  — Pablo Picasso.
 
-<h3>No olvides:</h3>
+<h3 style="background-Color: red">No olvides:</h3>
 
 <ul>
     <li>Contactarme en @csrgrr</li>
@@ -39,7 +39,6 @@ Puedes ver la página en https://csrgrr.github.io
 
 ![perro](imagenes/adios.gif)
 
-echo "# Hello World"
 
 <style>
     h3 {
